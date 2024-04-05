@@ -1,0 +1,29 @@
+{
+  "name": "prueba_newinntech",
+  "version": "1.0.0",
+  "description": "API parqueadero",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirShovo/prueba_newinntech-3.git"
+  },
+  "author": "Sebastian Agudelo Bornacelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirShovo/prueba_newinntech-3/issues"
+  },
+  "homepage": "https://github.com/sirShovo/prueba_newinntech-3#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
