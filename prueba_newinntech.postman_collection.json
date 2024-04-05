@@ -1,0 +1,986 @@
+{
+	"info": {
+		"_postman_id": "145cb993-ed13-4bf1-b20a-8b2d244ac882",
+		"name": "prueba_newinntech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34080749"
+	},
+	"item": [
+		{
+			"name": "espacios",
+			"item": [
+				{
+					"name": "get_all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}espacios/get_all",
+							"host": [
+								"{{localhost}}espacios"
+							],
+							"path": [
+								"get_all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get_all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{localhost}}espacios/get_all",
+									"host": [
+										"{{localhost}}espacios"
+									],
+									"path": [
+										"get_all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3543"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"dd7-S4+BYI7+tfbCZbu3l2xuAqtkMZU\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 18:28:04 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d0\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 3,\n            \"createdAt\": \"2024-04-05T09:06:02.622Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3ce\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 1,\n            \"createdAt\": \"2024-04-05T09:06:02.619Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3cf\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 2,\n            \"createdAt\": \"2024-04-05T09:06:02.622Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d3\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 1,\n            \"createdAt\": \"2024-04-05T09:06:02.624Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d4\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 2,\n            \"createdAt\": \"2024-04-05T09:06:02.624Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d1\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 4,\n            \"createdAt\": \"2024-04-05T09:06:02.623Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d6\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 4,\n            \"createdAt\": \"2024-04-05T09:06:02.625Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d7\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 5,\n            \"createdAt\": \"2024-04-05T09:06:02.626Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d2\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 5,\n            \"createdAt\": \"2024-04-05T09:06:02.623Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d9\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 7,\n            \"createdAt\": \"2024-04-05T09:06:02.626Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3da\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 8,\n            \"createdAt\": \"2024-04-05T09:06:02.627Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3db\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 9,\n            \"createdAt\": \"2024-04-05T09:06:02.628Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3dc\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 10,\n            \"createdAt\": \"2024-04-05T09:06:02.628Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d5\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 3,\n            \"createdAt\": \"2024-04-05T09:06:02.625Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbefa28e1e43aec7db3d8\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 6,\n            \"createdAt\": \"2024-04-05T09:06:02.626Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3ec\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 1,\n            \"createdAt\": \"2024-04-05T09:06:35.034Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3ed\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 2,\n            \"createdAt\": \"2024-04-05T09:06:35.035Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3ee\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 3,\n            \"createdAt\": \"2024-04-05T09:06:35.035Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f0\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 5,\n            \"createdAt\": \"2024-04-05T09:06:35.037Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3ef\",\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 4,\n            \"createdAt\": \"2024-04-05T09:06:35.036Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f1\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 1,\n            \"createdAt\": \"2024-04-05T09:06:35.037Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f2\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 2,\n            \"createdAt\": \"2024-04-05T09:06:35.038Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f5\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 5,\n            \"createdAt\": \"2024-04-05T09:06:35.039Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f6\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 6,\n            \"createdAt\": \"2024-04-05T09:06:35.040Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f7\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 7,\n            \"createdAt\": \"2024-04-05T09:06:35.040Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f8\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 8,\n            \"createdAt\": \"2024-04-05T09:06:35.040Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f9\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 9,\n            \"createdAt\": \"2024-04-05T09:06:35.041Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3fa\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 10,\n            \"createdAt\": \"2024-04-05T09:06:35.041Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f3\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 3,\n            \"createdAt\": \"2024-04-05T09:06:35.039Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"660fbf1b28e1e43aec7db3f4\",\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 4,\n            \"createdAt\": \"2024-04-05T09:06:35.039Z\",\n            \"__v\": 0\n        }\n    ],\n    \"total\": 30\n}"
+						}
+					]
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"espacios\": [\r\n    {\r\n      \"tipo_espacio\": \"carro\",\r\n      \"locacion\": 1\r\n    }\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost}}espacios/create",
+							"host": [
+								"{{localhost}}espacios"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"espacios\": [\r\n    {\r\n      \"tipo_espacio\": \"carro\",\r\n      \"locacion\": 1\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"carro\",\r\n      \"locacion\": 2\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"carro\",\r\n      \"locacion\": 3\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"carro\",\r\n      \"locacion\": 4\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"carro\",\r\n      \"locacion\": 5\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 1\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 2\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 3\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 4\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 5\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 6\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 7\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 8\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 9\r\n    },\r\n    {\r\n      \"tipo_espacio\": \"moto\",\r\n      \"locacion\": 10\r\n    }\r\n  ]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{localhost}}espacios/create",
+									"host": [
+										"{{localhost}}espacios"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1775"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"6ef-X/xmSkOx9N3iijIZuGLvSWzU0/g\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 18:45:46 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"espacios\": [\n        {\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 1,\n            \"_id\": \"661046da1cc70a881062cdf3\",\n            \"createdAt\": \"2024-04-05T18:45:46.473Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 2,\n            \"_id\": \"661046da1cc70a881062cdf4\",\n            \"createdAt\": \"2024-04-05T18:45:46.473Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 3,\n            \"_id\": \"661046da1cc70a881062cdf5\",\n            \"createdAt\": \"2024-04-05T18:45:46.474Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 4,\n            \"_id\": \"661046da1cc70a881062cdf6\",\n            \"createdAt\": \"2024-04-05T18:45:46.474Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"carro\",\n            \"locacion\": 5,\n            \"_id\": \"661046da1cc70a881062cdf7\",\n            \"createdAt\": \"2024-04-05T18:45:46.474Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 1,\n            \"_id\": \"661046da1cc70a881062cdf8\",\n            \"createdAt\": \"2024-04-05T18:45:46.475Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 2,\n            \"_id\": \"661046da1cc70a881062cdf9\",\n            \"createdAt\": \"2024-04-05T18:45:46.475Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 3,\n            \"_id\": \"661046da1cc70a881062cdfa\",\n            \"createdAt\": \"2024-04-05T18:45:46.475Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 4,\n            \"_id\": \"661046da1cc70a881062cdfb\",\n            \"createdAt\": \"2024-04-05T18:45:46.476Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 5,\n            \"_id\": \"661046da1cc70a881062cdfc\",\n            \"createdAt\": \"2024-04-05T18:45:46.476Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 6,\n            \"_id\": \"661046da1cc70a881062cdfd\",\n            \"createdAt\": \"2024-04-05T18:45:46.476Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 7,\n            \"_id\": \"661046da1cc70a881062cdfe\",\n            \"createdAt\": \"2024-04-05T18:45:46.476Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 8,\n            \"_id\": \"661046da1cc70a881062cdff\",\n            \"createdAt\": \"2024-04-05T18:45:46.477Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 9,\n            \"_id\": \"661046da1cc70a881062ce00\",\n            \"createdAt\": \"2024-04-05T18:45:46.477Z\",\n            \"__v\": 0\n        },\n        {\n            \"tipo_espacio\": \"moto\",\n            \"locacion\": 10,\n            \"_id\": \"661046da1cc70a881062ce01\",\n            \"createdAt\": \"2024-04-05T18:45:46.477Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"6610470b1cc70a881062ce11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost}}espacios/delete",
+							"host": [
+								"{{localhost}}espacios"
+							],
+							"path": [
+								"delete"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "delete",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": \"6610470b1cc70a881062ce11\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{localhost}}espacios/delete",
+									"host": [
+										"{{localhost}}espacios"
+									],
+									"path": [
+										"delete"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "165"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a5-+spmiIV+TOoZA4Fkbi4R/4Ine8c\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 18:46:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"espacio\": {\n        \"_id\": \"6610470b1cc70a881062ce11\",\n        \"tipo_espacio\": \"carro\",\n        \"locacion\": 1,\n        \"createdAt\": \"2024-04-05T18:46:35.443Z\",\n        \"__v\": 0\n    },\n    \"message\": \"Eliminado correctamente\"\n}"
+						}
+					]
+				}
+			],
+			"description": "Peticiones para los espacios de los vehiculos"
+		},
+		{
+			"name": "tiempos",
+			"item": [
+				{
+					"name": "get_all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}tiempos/get_all",
+							"host": [
+								"{{localhost}}tiempos"
+							],
+							"path": [
+								"get_all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get_all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{localhost}}tiempos/get_all",
+									"host": [
+										"{{localhost}}tiempos"
+									],
+									"path": [
+										"get_all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "186"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"ba-NgxLQyX9AOBG/mWZFI9ftUiyBEM\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:35:41 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"_id\": \"6610522ee19bb6e0d21675c3\",\n            \"id_vehiculo\": \"66104b44dc0fa53e5bb13ecf\",\n            \"id_espacio\": \"661046da1cc70a881062cdf5\",\n            \"hora_entrada\": \"2024-04-05T19:34:06.226Z\",\n            \"__v\": 0\n        }\n    ],\n    \"total\": 1\n}"
+						}
+					]
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": {\r\n    \"id_vehiculo\": \"66104b44dc0fa53e5bb13ecf\",\r\n    \"id_espacio\": \"661046da1cc70a881062cdf5\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost}}tiempos/create",
+							"host": [
+								"{{localhost}}tiempos"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"data\": {\r\n    \"id_vehiculo\": \"66104b44dc0fa53e5bb13ecf\",\r\n    \"id_espacio\": \"661046da1cc70a881062cdf5\"\r\n  }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{localhost}}tiempos/create",
+									"host": [
+										"{{localhost}}tiempos"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "176"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b0-mO4dTohHrmgveH+up6A8pIgsdgQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:34:06 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"tiempo\": {\n        \"id_vehiculo\": \"66104b44dc0fa53e5bb13ecf\",\n        \"id_espacio\": \"661046da1cc70a881062cdf5\",\n        \"_id\": \"6610522ee19bb6e0d21675c3\",\n        \"hora_entrada\": \"2024-04-05T19:34:06.226Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}tiempos/get/6610522ee19bb6e0d21675c3",
+							"host": [
+								"{{localhost}}tiempos"
+							],
+							"path": [
+								"get",
+								"6610522ee19bb6e0d21675c3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{localhost}}tiempos/get/6610522ee19bb6e0d21675c3",
+									"host": [
+										"{{localhost}}tiempos"
+									],
+									"path": [
+										"get",
+										"6610522ee19bb6e0d21675c3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "178"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b2-M3VH7rZItwbf5kBxD+qCzlmths0\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:36:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"vehiculo\": {\n        \"_id\": \"6610522ee19bb6e0d21675c3\",\n        \"id_vehiculo\": \"66104b44dc0fa53e5bb13ecf\",\n        \"id_espacio\": \"661046da1cc70a881062cdf5\",\n        \"hora_entrada\": \"2024-04-05T19:34:06.226Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\": {\r\n        \"_id\": \"6610522ee19bb6e0d21675c3\",\r\n        \"hora_salida\": \"2024-04-05T22:34:06.226Z\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost}}tiempos/update",
+							"host": [
+								"{{localhost}}tiempos"
+							],
+							"path": [
+								"update"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"data\": {\r\n        \"_id\": \"6610522ee19bb6e0d21675c3\",\r\n        \"hora_salida\": \"2024-04-05T22:34:06.226Z\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{localhost}}tiempos/update",
+									"host": [
+										"{{localhost}}tiempos"
+									],
+									"path": [
+										"update"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "255"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"ff-AtJTkeefnCcZ2+CwUMvlO7XAgvs\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:38:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"tiempo\": {\n        \"_id\": \"6610522ee19bb6e0d21675c3\",\n        \"id_vehiculo\": \"66104b44dc0fa53e5bb13ecf\",\n        \"id_espacio\": \"661046da1cc70a881062cdf5\",\n        \"hora_entrada\": \"2024-04-05T19:34:06.226Z\",\n        \"__v\": 0,\n        \"hora_salida\": \"2024-04-05T22:34:06.226Z\"\n    },\n    \"message\": \"Actualizado correctamente\"\n}"
+						}
+					]
+				}
+			],
+			"description": "Peticiones para tiempos"
+		},
+		{
+			"name": "vehiculos",
+			"item": [
+				{
+					"name": "get_all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}vehiculos/get_all",
+							"host": [
+								"{{localhost}}vehiculos"
+							],
+							"path": [
+								"get_all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get_all",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{localhost}}vehiculos/get_all",
+									"host": [
+										"{{localhost}}vehiculos"
+									],
+									"path": [
+										"get_all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "252"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"fc-lvdwEJUA8/hSKCYXGCTXDkoW77c\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:06:03 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"_id\": \"66104b44dc0fa53e5bb13ecf\",\n            \"tipo\": \"carro\",\n            \"placa\": \"mtc250\",\n            \"color_vehiculo\": \"rojo\",\n            \"marca_vehiculo\": \"mazda\",\n            \"modelo\": 2024,\n            \"propietario\": \"pepito perez\",\n            \"documento_propietario\": \"123456789\",\n            \"cel_propietario\": 9876543210,\n            \"__v\": 0\n        }\n    ],\n    \"total\": 1\n}"
+						}
+					]
+				},
+				{
+					"name": "get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}vehiculos/get/66104b44dc0fa53e5bb13ecf",
+							"host": [
+								"{{localhost}}vehiculos"
+							],
+							"path": [
+								"get",
+								"66104b44dc0fa53e5bb13ecf"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{localhost}}vehiculos/get/66104b44dc0fa53e5bb13ecf",
+									"host": [
+										"{{localhost}}vehiculos"
+									],
+									"path": [
+										"get",
+										"66104b44dc0fa53e5bb13ecf"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "240"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"f0-J84yukXNVDiZfcGoZkrLPJe7i3g\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:05:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"_id\": \"66104b44dc0fa53e5bb13ecf\",\n        \"tipo\": \"carro\",\n        \"placa\": \"mtc250\",\n        \"color_vehiculo\": \"rojo\",\n        \"marca_vehiculo\": \"mazda\",\n        \"modelo\": 2024,\n        \"propietario\": \"pepito perez\",\n        \"documento_propietario\": \"123456789\",\n        \"cel_propietario\": 9876543210,\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": {\r\n    \"tipo\": \"carro\",\r\n    \"placa\": \"mtc250\",\r\n    \"color_vehiculo\": \"rojo\",\r\n    \"marca_vehiculo\": \"mazda\",\r\n    \"modelo\": 2024,\r\n    \"propietario\": \"pepito perez\",\r\n    \"documento_propietario\": \"123456789\",\r\n    \"cel_propietario\": 9876543210\r\n  }  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost}}vehiculos/create",
+							"host": [
+								"{{localhost}}vehiculos"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "{{localhost}}vehiculos/create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"data\": {\r\n    \"tipo\": \"carro\",\r\n    \"placa\": \"mtc250\",\r\n    \"color_vehiculo\": \"rojo\",\r\n    \"marca_vehiculo\": \"mazda\",\r\n    \"modelo\": 2024,\r\n    \"propietario\": \"pepito perez\",\r\n    \"documento_propietario\": \"123456789\",\r\n    \"cel_propietario\": 9876543210\r\n  }  \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{localhost}}vehiculos/create",
+									"host": [
+										"{{localhost}}vehiculos"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "244"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"f4-ANMerz2ad7iGUbe1MfkF1MHFII0\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:04:36 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"vehiculo\": {\n        \"tipo\": \"carro\",\n        \"placa\": \"mtc250\",\n        \"color_vehiculo\": \"rojo\",\n        \"marca_vehiculo\": \"mazda\",\n        \"modelo\": 2024,\n        \"propietario\": \"pepito perez\",\n        \"documento_propietario\": \"123456789\",\n        \"cel_propietario\": 9876543210,\n        \"_id\": \"66104b44dc0fa53e5bb13ecf\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"66104d431e1ab9058d588901\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost}}vehiculos/delete",
+							"host": [
+								"{{localhost}}vehiculos"
+							],
+							"path": [
+								"delete"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "delete",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": \"66104d431e1ab9058d588901\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{localhost}}vehiculos/delete",
+									"host": [
+										"{{localhost}}vehiculos"
+									],
+									"path": [
+										"delete"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "280"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"118-9lX+Cq5djLyvLM+Skptm2KxkudQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:14:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"vehiculo\": {\n        \"_id\": \"66104d431e1ab9058d588901\",\n        \"tipo\": \"carro\",\n        \"placa\": \"mtc250\",\n        \"color_vehiculo\": \"rojo\",\n        \"marca_vehiculo\": \"mazda\",\n        \"modelo\": 2024,\n        \"propietario\": \"pepito perez\",\n        \"documento_propietario\": \"123456789\",\n        \"cel_propietario\": 9876543210,\n        \"__v\": 0\n    },\n    \"message\": \"Eliminado correctamente\"\n}"
+						}
+					]
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"66104b44dc0fa53e5bb13ecf\",\r\n    \"data\": {\r\n        \"color_vehiculo\": \"azul\",\r\n        \"marca_vehiculo\": \"ford\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost}}vehiculos/update",
+							"host": [
+								"{{localhost}}vehiculos"
+							],
+							"path": [
+								"update"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": \"66104b44dc0fa53e5bb13ecf\",\r\n    \"data\": {\r\n        \"color_vehiculo\": \"azul\",\r\n        \"marca_vehiculo\": \"ford\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{localhost}}vehiculos/update",
+									"host": [
+										"{{localhost}}vehiculos"
+									],
+									"path": [
+										"update"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "281"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"119-yLtTYLwH0paGY59DU4hVk31d/jo\""
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 05 Apr 2024 19:29:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"vehiculo\": {\n        \"_id\": \"66104b44dc0fa53e5bb13ecf\",\n        \"tipo\": \"carro\",\n        \"placa\": \"mtc250\",\n        \"color_vehiculo\": \"azul\",\n        \"marca_vehiculo\": \"ford\",\n        \"modelo\": 2024,\n        \"propietario\": \"pepito perez\",\n        \"documento_propietario\": \"123456789\",\n        \"cel_propietario\": 9876543210,\n        \"__v\": 0\n    },\n    \"message\": \"Actualizado correctamente\"\n}"
+						}
+					]
+				}
+			],
+			"description": "Peticiones para los vehiculos"
+		}
+	]
+}

@@ -15,6 +15,7 @@ npm run dev
 ```
 
 Para ingresar a la API, es necesario el uso de Postman.
+Puede importar la coleccion ya creada para esta api.
 
 El back-up de la base de datos esta dentro de la carpeta parqueadero.
 
