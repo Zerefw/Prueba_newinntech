@@ -10,16 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sirShovo/prueba_newinntech-3.git"
+    "url": "git+https://github.com/Zerefw/Prueba_newinntech.git"
   },
-  "author": "Sebastian Agudelo Bornacelly",
+  "author": "Stiven Castro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sirShovo/prueba_newinntech-3/issues"
+    "url": "https://github.com/Zerefw/Prueba_newinntech/issues"
   },
-  "homepage": "https://github.com/sirShovo/prueba_newinntech-3#readme",
+  "homepage": "https://github.com/Zerefw/Prueba_newinntech#readme",
   "dependencies": {
-    "axios": "^1.6.8",
     "express": "^4.19.2",
     "mongoose": "^8.3.0"
   },
